@@ -440,12 +440,3 @@ makeName arg
 makeShortName arg
    | (head (reverse arg) == 'i') && (head (tail (reverse arg)) == '.') = reverse (delete '.' (delete 'i' (reverse arg)))
    | otherwise = arg
-
-
-
-
-
-
-
-
-
